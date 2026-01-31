@@ -5,8 +5,8 @@ os.makedirs('videos', exist_ok=True)
 os.makedirs('outputs', exist_ok=True)
 os.makedirs('models', exist_ok=True)
 # test video path
-video_path = 'videos/input_video.mp4'  
-cap = cv2.VideoCapture(video_path)
+VIDEO_PATH = 'videos/input_video.mp4'  
+cap = cv2.VideoCapture(VIDEO_PATH)
 
 if not cap.isOpened():
     print("Error in opening video file.")
