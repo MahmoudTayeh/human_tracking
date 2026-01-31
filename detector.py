@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from main import VIDEO_PATH
 class PersonDetector:
-    def __init__(self, model_name='yolov8x.pt'):
+    def __init__(self, model_name='models/yolov8x.pt'):
         """
         download model YOLO
         yolov8n.pt = fast but less accurate model
