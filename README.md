@@ -19,14 +19,19 @@ Real-time human detection, tracking, and face recognition system using YOLO, Dee
 ### Face Recognition in Action
 The system successfully identifies and tracks individuals across video frames:
 
-![Person Tracking Example 1]<img width="336" height="675" alt="image" src="https://github.com/user-attachments/assets/84117357-35db-4ca2-9b9f-b9f3ddfb7957" />
+![Person Tracking Example 1]
 
 *Person ID: 6 - Mahmoud tracked with green bounding box*
 
-![Person Tracking Example 2]<img width="357" height="702" alt="image" src="https://github.com/user-attachments/assets/1734adde-a292-46ab-86d3-cf05d9507bd5" />
+<img width="336" height="675" alt="image" src="https://github.com/user-attachments/assets/fb8c7fa0-3e11-4d8e-bda2-36acbb8edc18" />
+
+![Person Tracking Example 2]
 
 *Person ID: 3 - Ahmed tracked and identified*
 
+<img width="357" height="702" alt="image" src="https://github.com/user-attachments/assets/1734adde-a292-46ab-86d3-cf05d9507bd5" />
+
+---
 ### Technology Stack
 
 ![YOLO Detection](docs/yolo_detection.png)
