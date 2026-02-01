@@ -2,7 +2,9 @@ venv/
 __pycache__/
 *.pyc
 .env
-videos/
-outputs/
-models/
+videos/input_video.mp4
+outputs/videos/tracked_video.mp4
+outputs/statistics/tracking_stats.png
+data/videos/input_video.mp4
+data/models/yolov8x.pt
 yolov8x.pt
