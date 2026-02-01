@@ -25,6 +25,8 @@ The system successfully identifies and tracks individuals across video frames:
 
 <img width="336" height="675" alt="image" src="https://github.com/user-attachments/assets/fb8c7fa0-3e11-4d8e-bda2-36acbb8edc18" />
 
+---
+
 ![Person Tracking Example 2]
 
 *Person ID: 3 - Ahmed tracked and identified*
@@ -32,6 +34,7 @@ The system successfully identifies and tracks individuals across video frames:
 <img width="357" height="702" alt="image" src="https://github.com/user-attachments/assets/1734adde-a292-46ab-86d3-cf05d9507bd5" />
 
 ---
+
 ### Technology Stack
 
 ![YOLO Detection](docs/yolo_detection.png)
