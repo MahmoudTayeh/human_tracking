@@ -19,7 +19,7 @@ Real-time human detection, tracking, and face recognition system using YOLO, Dee
 ### Face Recognition in Action
 The system successfully identifies and tracks individuals across video frames:
 
-![Person Tracking Example 1]
+##### Person Tracking Example 1 !
 
 *Person ID: 6 - Mahmoud tracked with green bounding box*
 
@@ -27,7 +27,7 @@ The system successfully identifies and tracks individuals across video frames:
 
 ---
 
-![Person Tracking Example 2]
+##### Person Tracking Example 2 !
 
 *Person ID: 3 - Ahmed tracked and identified*
 
