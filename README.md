@@ -361,6 +361,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 **Mahmoud Faraj Tayeh**  
 Email: mahmodtayh2003@gmail.com
 
+**Mahmoud Hisham Mahmoud Almodalal** 
+Email: ghg17273@gmail.com
+
 Project Link: [https://github.com/mahmoudfarajtayeh/human-tracking](https://github.com/mahmoudfarajtayeh/human-tracking)
 
 ## 🙏 Acknowledgments
