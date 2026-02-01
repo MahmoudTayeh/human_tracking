@@ -1,0 +1,23 @@
+model:
+  yolo_model: "data/models/yolov8x.pt"  # Will auto-download if not found
+  confidence_threshold: 0.5
+  device: "cuda"  # Use "cpu" if you don't have NVIDIA GPU
+
+tracker:
+  max_age: 30
+  n_init: 3
+  max_iou_distance: 0.7
+  max_cosine_distance: 0.3
+  embedder: "mobilenet"
+  use_gpu: true  # Set to false if no GPU
+
+video:
+  input_path: "data/videos/input_video.mp4"
+  output_path: "outputs/videos/tracked_video.mp4"
+  show_preview: true
+  save_video: true
+
+visualization:
+  show_statistics: true
+  font_scale: 0.6
+  box_thickness: 2
