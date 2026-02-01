@@ -38,9 +38,10 @@ The system successfully identifies and tracks individuals across video frames:
 ### Technology Stack
 
 <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/25d856ab-0f9c-445d-9c98-515fe5052e09" />
-<img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/8a3197c9-d3f5-4999-ba3c-a4d07c50cc32" />
+<img width="250" height="150" alt="image" src="https://github.com/user-attachments/assets/8a3197c9-d3f5-4999-ba3c-a4d07c50cc32" />
 
 *YOLOv8 detects people with high accuracy*
+
 *InsightFace provides state-of-the-art face recognition*
 
 ## 🔒 Security Importance
