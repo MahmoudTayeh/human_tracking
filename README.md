@@ -2,7 +2,8 @@
 
 Real-time human detection, tracking, and face recognition system using YOLO, DeepSort, and InsightFace for security and surveillance applications.
 
-![Project Banner](docs/banner.png)
+
+![insightface_logo jpg_320x320](https://github.com/user-attachments/assets/6508d2de-658b-4059-a8e9-f7064d108a46)
 
 ## 🎯 Features
 
@@ -18,10 +19,12 @@ Real-time human detection, tracking, and face recognition system using YOLO, Dee
 ### Face Recognition in Action
 The system successfully identifies and tracks individuals across video frames:
 
-![Person Tracking Example 1](docs/demo1.png)
+![Person Tracking Example 1]<img width="336" height="675" alt="image" src="https://github.com/user-attachments/assets/84117357-35db-4ca2-9b9f-b9f3ddfb7957" />
+
 *Person ID: 6 - Mahmoud tracked with green bounding box*
 
-![Person Tracking Example 2](docs/demo2.png)
+![Person Tracking Example 2]<img width="357" height="702" alt="image" src="https://github.com/user-attachments/assets/1734adde-a292-46ab-86d3-cf05d9507bd5" />
+
 *Person ID: 3 - Ahmed tracked and identified*
 
 ### Technology Stack
