@@ -1,10 +1,174 @@
-venv/
+# Human Tracking Project - Git Ignore File
+# This keeps your repository clean by excluding large files and generated content
+
+# ============================================================================
+# Python
+# ============================================================================
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-.env
-videos/input_video.mp4
-outputs/videos/tracked_video.mp4
-outputs/statistics/tracking_stats.png
-data/videos/input_video.mp4
-data/models/yolov8x.pt
-yolov8x.pt
+*.py[cod]
+*$py.class
+*.so
+_pycache_/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# ============================================================================
+# Data Files - Large datasets and media
+# ============================================================================
+# Videos (input and output)
+data/videos/
+data/videos/*
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+
+# Face images and training data
+data/known_faces/
+data/known_faces/*
+
+# Face database (contains face embeddings)
+data/face_database.pkl
+data/face_database.json
+*.pkl
+*.pickle
+
+# Temporary face captures
+data/temp_capture_*/
+
+# ============================================================================
+# Model Files - YOLO and other large model files
+# ============================================================================
+# YOLO models
+data/models/
+data/models/*
+*.pt
+*.pth
+*.weights
+*.onnx
+*.tflite
+*.pb
+
+# InsightFace models (auto-downloaded)
+.insightface/
+*.params
+
+# ============================================================================
+# Output Files - Generated results
+# ============================================================================
+# Output videos
+outputs/videos/
+outputs/videos/*
+
+# Statistics and visualizations
+outputs/statistics/
+outputs/statistics/*
+outputs/visualizations/
+outputs/visualizations/*
+
+# Generated plots and images
+*.png
+*.jpg
+*.jpeg
+!docs/**/*.png
+!docs/**/*.jpg
+!README_assets/**/*.png
+!README_assets/**/*.jpg
+
+# ============================================================================
+# IDE and Editor Files
+# ============================================================================
+# VS Code
+.vscode/
+.vscode/*
+*.code-workspace
+
+# PyCharm
+.idea/
+.idea/*
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================================================
+# OS Files
+# ============================================================================
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ============================================================================
+# Logs and Temporary Files
+# ============================================================================
+*.log
+logs/
+*.tmp
+*.temp
+
+# ============================================================================
+# Testing and Coverage
+# ============================================================================
+tests/__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ============================================================================
+# Distribution / Packaging
+# ============================================================================
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ============================================================================
+# Keep Important Files (Exceptions)
+# ============================================================================
+# Keep example configurations
+!configs/config.yaml.example
+
+# Keep README images if you have them
+!docs/
+!README_assets/
+
+# Keep a sample video reference (if you want)
+# !data/videos/sample_video.mp4
+
+# Keep requirements file
+!requirements.txt
+!requirements_insightface.txt
+
+# ============================================================================
+# Project Specific
+# ============================================================================
+# Backup files
+*.bak
+*_backup.*
+
+# Temporary processing files
+temp_*
+tmp_*
+
+# Development notes (if you want to keep them private)
+notes.txt
+todo.txt
+scratch.py

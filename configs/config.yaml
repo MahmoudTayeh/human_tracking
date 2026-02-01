@@ -11,10 +11,23 @@ tracker:
   embedder: "mobilenet"
   use_gpu: true  # Set to false if no GPU
 
+# Face Recognition Settings
+face_recognition:
+  enabled: true  # Set to false to disable face recognition
+  database_path: "data/face_database.pkl"  # Where face embeddings are stored
+  similarity_threshold: 0.4  # Lower = stricter matching (0.25-0.45 recommended)
+                             # 0.3 = very strict
+                             # 0.4 = recommended (default)
+                             # 0.5 = more lenient
+  recognition_interval: 10  # Run face recognition every N frames
+                           # 5 = more frequent updates (slower)
+                           # 10 = balanced (recommended)
+                           # 20 = less frequent (faster)
+
 video:
   input_path: "data/videos/input_video.mp4"
   output_path: "outputs/videos/tracked_video.mp4"
-  show_preview: true
+  show_preview: false
   save_video: true
 
 visualization:
