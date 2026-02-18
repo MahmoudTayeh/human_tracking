@@ -5,7 +5,7 @@ Real-time human detection, tracking, and face recognition system using YOLO, Dee
 
 ![insightface_logo jpg_320x320](https://github.com/user-attachments/assets/6508d2de-658b-4059-a8e9-f7064d108a46)
 
-## 🎯 Features
+## 🎯 Features 
 
 - ✅ **Person Detection** - YOLOv8 for accurate person detection in crowded environments
 - ✅ **Multi-Object Tracking** - DeepSort for robust tracking across frames
