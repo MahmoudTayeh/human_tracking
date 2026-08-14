@@ -140,9 +140,13 @@ build/
 *.egg-info/
 *.egg
 
-# ============================================================================
+# ==========================================================================
 # Keep Important Files (Exceptions)
 # ============================================================================
+!site/public/assets/
+!site/public/assets/*.png
+!site/public/assets/*.jpg
+!site/public/assets/*.jpeg
 # Keep example configurations
 !configs/config.yaml.example
 
@@ -152,6 +156,10 @@ build/
 
 # Keep a sample video reference (if you want)
 # !data/videos/sample_video.mp4
+
+# GitHub Pages showcase build artifacts
+site/node_modules/
+site/dist/
 
 # Keep requirements file
 !requirements.txt

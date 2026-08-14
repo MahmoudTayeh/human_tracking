@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Human Tracking mark">
+  <rect width="64" height="64" fill="#F36B3D"/>
+  <path d="M14 27V14h13M50 37v13H37" fill="none" stroke="#172234" stroke-width="4"/>
+  <circle cx="31" cy="31" r="5" fill="#172234"/>
+  <path d="M33 34 51 23" fill="none" stroke="#172234" stroke-width="3"/>
+</svg>
